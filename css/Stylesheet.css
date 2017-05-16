@@ -1,0 +1,246 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	
+    background: linear-gradient(to top left, #ffff66 0%, #ff9999 100%);
+    background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+
+.btn-min-block {
+    min-width: 170px;
+    line-height: 26px;
+}
+
+.btn-theme {
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #fff;
+    margin-right: 15px;
+}
+
+.btn-theme:hover {
+    color: #000;
+    background-color: #fff;
+    border-color: #fff;
+}
+
+.nav{
+ 	
+	width:100%;
+	text-align: center;
+	
+	}
+		
+	
+navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+ .navbar-default .navbar-nav > .active > a:focus {
+     
+      background-color:#FCA780;
+	  text-align:center;
+	  
+ }
+ 
+.navbar-default .navbar-nav > 
+.active > a, .navbar-default .navbar-nav >
+.active > a:hover, .navbar-default .navbar-nav >
+.active > a:focus {
+    color: #866767;
+    background-color: #FFDEA0;
+   
+}
+
+ .navbar-nav {
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+}
+
+.navbar-nav > li {
+    display: inline-block;
+    float:none;
+}
+ .container-fluid{
+	background: linear-gradient(to right, #FFA294 0%, #FFF56B 100%);
+    width: 100%;	
+}
+
+.active{
+	color:#FFED75;
+}
+
+.a{
+	color:#FFED75;
+}
+	
+
+.container{
+	width:100%;
+	
+	
+}
+
+.footer{
+	 background: linear-gradient(to bottom right, #ffff66 0%, #ff9999 100%);
+	 border-top: solid #866767; 
+	 width: 100%;
+	 position: fixed;
+     bottom:0px;	 
+}
+p {
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-style:oblique;
+	font-weight:bold;
+	color:#FFFFFF;
+	text-align: center;
+
+	}
+div.gallery {
+    border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+	color: white;
+	background: #D000FF;
+	opacity: 0.2;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.profile {
+	text-align:center;
+	border-radius: 25px;
+	position: relative;
+}
+.front{
+	position:absolute;
+	top: 2%;
+	left: 40%;
+	
+}
+
+.back{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	z-index:-1; 
+
+}
+
+.text{
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	color:#866767;
+	text-align:center;
+	list-style-type: none;
+	font-size: 18px;
+	padding: 20%;
+		
+	}
+b {
+	color:#7C5159;
+}
+
+ul{
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	color:#866767;
+	font-weight: bold;
+			
+}
+
+.page-header{
+font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+text-align:center;
+color:#7C5159;
+text-weight: bold;
+}
+
+h3{
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	color:#7C5159;
+	text-align:center;
+	font-size: 28px;
+	text-weight: bold;
+	
+}
+
+.text1{
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	color:#866767;
+	text-align:center;
+	list-style-type: none;
+	font-size: 15px;
+
+	
+	}
+	
+	
+	.jumbotron{
+	width: 40%;
+	text-align:center;
+	left:30%;
+	position:relative;
+	background: linear-gradient(to bottom right, #ffff66 0%, #ff9999 100%);
+	
+	
+	
+	}
+	
+.dropdown-menu{
+	background: #FFD190;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	color:#777777;
+}
+
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus{
+	background: #FFA294;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+}
+
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+    background-color:#FFE4A1;
+}
+ 
